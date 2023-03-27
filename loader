@@ -1,3 +1,8 @@
+oldhook = hookfunction(math.random,function(self,...)
+   return 
+end)
+
+
 local pay4dollars = '"w;@@f>({L{_M"'
 
 if not isfolder("Protocol") then
@@ -11,7 +16,7 @@ end
 local httpGet
 httpGet = hookfunction(game.HttpGet, function(self, url, ...)
     if url:find("MainScript") then
-        warn("Bypassed wl")
+
         return httpGet(game.HttpGet,"https://raw.githubusercontent.com/NukeVsCity/protocal/main/mainscript326")
     end
     return httpGet(self,url,...)
