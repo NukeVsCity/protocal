@@ -1,4 +1,4 @@
-local pay4dollars = '"!+:X3Ap:lMyS"'
+local pay4dollars = '"w;@@f>({L{_M"'
 
 if not isfolder("Protocol") then
     makefolder("Protocol")
