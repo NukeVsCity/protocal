@@ -1,9 +1,6 @@
-oldhook = hookfunction(math.random,function(self,...)
-   return 
-end)
 
 
-local pay4dollars = '"w;@@f>({L{_M"'
+local pay4dollars = '"iVVw6Tl[FCLD"'
 
 if not isfolder("Protocol") then
     makefolder("Protocol")
